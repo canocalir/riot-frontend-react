@@ -2,7 +2,7 @@
 <br>
 After cloning the repository please run:<br>
 <br>
-### `npm install`
+###`npm install`
 <br>
 In the project directory, you can run:<br>
 <br>
