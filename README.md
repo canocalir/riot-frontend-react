@@ -1,8 +1,10 @@
 # Riot Games - Frontend Engineer Assignment with React<br>
 <br>
-After cloning the repository please run:<br>
+After cloning the repository please run:
 <br>
-###`npm install`
+
+### `npm install`
+
 <br>
 In the project directory, you can run:<br>
 <br>
