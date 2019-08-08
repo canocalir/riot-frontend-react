@@ -1,0 +1,30 @@
+.main-heading {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 46px;
+    left: 20px;
+    top: 75px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 46px;
+    color: #F0E6D2;
+}
+
+@media only screen and (max-width: 450px) {
+
+    .main-heading {
+        display: flex;
+        width: 50%;
+        top: 50px;
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .main {
+        width: 100%;
+        max-width: 450px;
+    }
+}

@@ -1,0 +1,16 @@
+#loading {
+    z-index: 10;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+@media only screen and (max-width: 450px) {
+        
+    #loading img {
+      width: 60%;
+      text-align: center;
+      height: 55vh;
+    }
+}

@@ -1,0 +1,357 @@
+.tabs {
+  margin: 2rem;
+}
+
+.tabs .nav-tabs {
+  float: left;
+  width: 100%;
+  margin: 0;
+
+
+}
+
+.tabs .nav-tabs>li>a {
+  float: left;
+  color: #C8AA6E;
+  margin-top: 25px;
+  text-decoration: none;
+}
+
+.tabs .nav-tabs>li.active>a,
+.tabs .nav-tabs>li.active>a:hover,
+.tabs .nav-tabs>li.active>a:focus {
+  color: #F0E6D2;
+  cursor: default;
+
+}
+
+.tabs .tab-content {
+  float: left;
+  width: 100%;
+  margin-top: 200px;
+}
+
+.tabs .tab-content>.tab-pane {
+  display: none;
+}
+
+.tabs .tab-content>.tab-pane.active {
+  display: block;
+  padding: 2.5% 3.5%;
+}
+
+.tabs .tab-content>.active {
+  display: block;
+}
+
+#game1 {
+  position: absolute;
+  width: 80px;
+  height: 16px;
+  left: 20px;
+  top: 165px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  list-style-type: none;
+
+}
+
+#game2 {
+  position: absolute;
+  width: 80px;
+  height: 32px;
+  left: 89px;
+  top: 165px;
+  list-style-type: none;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.line {
+  position: absolute;
+  width: 100%;
+  height: 0px;
+  left: 20px;
+  top: 182px;
+  margin-top: 27px;
+  border: 1px solid #444747;
+}
+
+.nameclass {
+  position: absolute;
+  width: 34px;
+  height: 22px;
+  left: 20px;
+  top: 202px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #C8AA6E;
+}
+
+.player {
+  position: absolute;
+  width: 110px;
+  height: 22px;
+  left: 63px;
+  top: 202px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #F0E6D2;
+}
+
+.pname {
+  width: 467px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  color: #9B9B9B;
+}
+
+.pstats {
+  width: 142px;
+  height: 16px;
+  top: 265px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  color: #F0E6D2;
+}
+
+.pstpoint {
+  width: 109px;
+  height: 16px;
+  top: 265px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  color: #F0E6D2;
+}
+
+.points {
+  width: 41px;
+  height: 16px;
+  left: 718px;
+  top: 265px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  color: #F0E6D2;
+}
+
+.sname {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  color: #C8AA6E;
+}
+
+.sname2 {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  color: #C8AA6E;
+}
+
+
+.lname {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  color: #F0E6D2;
+  padding-left: 5px;
+}
+
+.lname2 {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  color: #F0E6D2;
+  padding-left: 5px;
+}
+
+.isVictory {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 26px;
+  color: #0296AA;
+}
+
+.isDefeat {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 26px;
+  color: #BE1E37;
+}
+
+.headings {
+  display: flex;
+  width: 500px;
+  height: 20px;
+}
+
+@media only screen and (max-width: 450px) {
+
+  #game1 {
+    top: 120px;
+    font-size: 11px;
+  }
+
+  #game2 {
+    top: 120px;
+    font-size: 11px;
+  }
+
+  .line {
+    top: 135px;
+    width: 100%;
+
+  }
+
+  .isVictory {
+    margin-right: 150px;
+    font-size: 12px;
+    margin-top: 6px;
+    font-size: 11px;
+
+  }
+
+  .isDefeat {
+    margin-right: 150px;
+    font-size: 12px;
+    margin-top: 6px;
+    font-size: 11px;
+  }
+
+  .headwin {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+    max-width: 450px;
+    margin-top: -20px;
+    padding-right: 1000px;
+  }
+
+  .sname {
+    font-size: 11px;
+    margin-top: 10px;
+    line-height: 17px;
+    color: #A09B8C;
+  }
+
+  .sname:after {
+    content: ' |';
+  }
+
+  .sname2 {
+    font-size: 11px;
+    margin-top: 10px;
+    line-height: 17px;
+    color: #A09B8C;
+  }
+
+  .sname2:after {
+    content: ' |';
+  }
+
+  .lname {
+    font-size: 11px;
+    margin-top: 10px;
+    line-height: 17px;
+    color: #A09B8C;
+  }
+
+  .lname2 {
+    font-size: 11px;
+    margin-top: 10px;
+    line-height: 17px;
+    color: #A09B8C;
+  }
+
+  .tabs .tab-content {
+    margin-top: 130px;
+  }
+
+  .pname {
+    position: absolute;
+    width: 95px;
+    font-size: 10px;
+    top: 5px;
+  }
+
+  tr {
+    display: flex;
+    width: 100%;
+    max-width: 450px;
+    padding-top: 20px;
+    position: relative;
+  }
+
+  tr:after {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    content: '';
+    position: absolute;
+    width: 100%;
+    border: 1px solid #444747;
+    top: 100%;
+    left: 0;
+  }
+
+  .pstats {
+    justify-content: flex-start;
+    font-size: 10px;
+    left: 20px;
+  }
+
+  .pstpoint {
+    font-size: 10px;
+  }
+
+  .points {
+    justify-content: flex-end;
+    font-size: 10px;
+  }
+
+  .footer {
+    font-size: 10px;
+    margin-bottom: -10px;
+  }
+
+}
+
+@media only screen and (max-width: 667px) {
+  .tabs .tab-content {
+    top: 20px;
+  }
+}

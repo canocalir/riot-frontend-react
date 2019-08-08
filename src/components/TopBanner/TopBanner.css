@@ -1,0 +1,17 @@
+.top-banner {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 35px;
+    left: 0px;
+    top: 0px;
+    background: #121212;
+}
+
+.logo-icon {
+    position: absolute;
+    width: 16px;
+    height: 17px;
+    left: 10px;
+    top: 9px;
+}
